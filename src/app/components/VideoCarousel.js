@@ -22,8 +22,10 @@ const VideoCarousel = () => {
       setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % arq.length);
     }, 4900);
 
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+
     return () => clearInterval(interval);
-  }, []);
+  }, []);  
 
   return (
     <div className={`pt-2 pb-2 container mx-auto max-w-flex max-w-sm justify-center
