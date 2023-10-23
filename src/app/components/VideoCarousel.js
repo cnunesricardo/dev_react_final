@@ -28,7 +28,7 @@ const VideoCarousel = () => {
   }, []);  
 
   return (
-    <div className={`pt-2 pb-2 container mx-auto max-w-flex max-w-sm justify-center
+    <div className={`pt-2 pb-2 container min-h-screen mx-auto max-w-flex max-w-sm justify-center
     ${theme === 'dark' ? 'bg-stone-600' : 'bg-white'}`}>
 
       {arq.map((video, index) => (

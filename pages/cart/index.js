@@ -60,7 +60,7 @@ const CartPage = () => {
 }
 
 return (
-  <main className="container mx-auto max-w-screen-lg min-h-screen">
+  <main className={`${theme === 'dark' ? 'bg-stone-600' : 'bg-white'} container mx-auto max-w-screen-md`}>
     <AppbarCartCal onMenuToggle={handleMenuToggle}></AppbarCartCal>
     <Drawer isOpen={isDrawerOpen} onClose={handleMenuToggle}></Drawer>
     <div className="container mx-auto py-10 grid grid-cols-1 gap-4 place-items-center max-w-screen-lg">
