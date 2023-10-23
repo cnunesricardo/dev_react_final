@@ -35,3 +35,5 @@
 .next/types/package.json
 .next/types/app/layout.ts
 .next/types/app/page.ts
+.next/cache/webpack/client-development/4.pack.gz
+.next/cache/webpack/client-development/index.pack.gz.old
