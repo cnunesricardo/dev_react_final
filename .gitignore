@@ -37,3 +37,15 @@
 .next/types/app/page.ts
 .next/cache/webpack/client-development/4.pack.gz
 .next/cache/webpack/client-development/index.pack.gz.old
+.next/server/pages/_app.js
+.next/server/pages/_error.js
+.next/server/pages/login.js
+.next/server/pages/products.js
+.next/server/vendor-chunks/@swc.js
+.next/static/chunks/app/page.js
+.next/static/chunks/pages/_app.js
+.next/static/webpack/176af7d3dc0e5511.webpack.hot-update.json
+.next/static/webpack/webpack.176af7d3dc0e5511.hot-update.js
+.next/static/webpack/app/layout.176af7d3dc0e5511.hot-update.js
+.next/static/webpack/app/page.176af7d3dc0e5511.hot-update.js
+.next/static/webpack/pages/_app.176af7d3dc0e5511.hot-update.js

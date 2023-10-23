@@ -18,11 +18,11 @@ const VideoCarousel = () => {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     const interval = setInterval(() => {
       setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % arq.length);
     }, 4900);
 
-        // eslint-disable-next-line react-hooks/exhaustive-deps
 
     return () => clearInterval(interval);
   }, []);  
